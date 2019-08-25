@@ -71,6 +71,16 @@ input, select, textarea {
 	appearance: none;
 }
 
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.skills {
+	padding-bottom: 1em;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -121,6 +131,10 @@ input, select, textarea {
 		font-weight: normal;
 		line-height: 1.75;
 	}
+
+	/* .container {
+		flex-wrap: wrap;
+	} */
 
 		@media screen and (max-width: 1680px) {
 
